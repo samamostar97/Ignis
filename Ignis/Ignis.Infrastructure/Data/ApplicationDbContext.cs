@@ -24,6 +24,7 @@ namespace Ignis.Infrastructure.Data
         public DbSet<WishlistItem> WishlistItems { get; set; }
         public DbSet<Coupon> Coupons { get; set; }
         public DbSet<Faq> Faqs { get; set; }
+        public DbSet<RefreshToken> RefreshTokens { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
